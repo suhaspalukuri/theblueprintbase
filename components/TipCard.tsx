@@ -15,7 +15,7 @@ export const TipCard: React.FC<TipCardProps> = ({ tip, onTipSelect }) => {
             tabIndex={0}
             onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') onTipSelect(tip); }}
         >
-            <div className="bg-base-200 rounded-xl h-full flex flex-col transition-all duration-300">
+            <div className="bg-base-200 rounded-xl h-full flex flex-col transition-all duration-300 border border-base-300">
                 <div className="p-4 flex flex-col flex-grow">
                      <div className="mb-3">
                         <h3 className="text-lg font-bold text-content-100 transition-colors truncate" title={tip.title}>
