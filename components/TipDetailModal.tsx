@@ -51,7 +51,7 @@ export const TipDetailModal: React.FC<TipDetailModalProps> = ({ tip, isOpen, onC
             </button>
             
             <div 
-                className="bg-base-100 rounded-2xl w-full max-w-2xl max-h-[90vh] flex flex-col animate-slide-up"
+                className="bg-base-100 rounded-2xl w-full max-w-2xl max-h-[90vh] flex flex-col animate-slide-up border border-base-300"
                 onClick={(e) => e.stopPropagation()}
                 role="dialog"
                 aria-modal="true"
