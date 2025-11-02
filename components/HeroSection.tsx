@@ -10,7 +10,7 @@ interface HeroSectionProps {
 export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
     return (
         <div className="fixed inset-0 z-0 flex flex-col items-center justify-center text-center px-4">
-            <h2 className="text-4xl md:text-6xl font-bold text-content-white mb-8 animate-fade-in max-w-4xl" style={{ animationDelay: '0.2s' }}>
+            <h2 className="text-4xl md:text-6xl font-bold text-content-100 mb-8 animate-fade-in max-w-4xl" style={{ animationDelay: '0.2s' }}>
                 Access actionable practices alongside a curated library of design resources
             </h2>
             
