@@ -35,7 +35,7 @@ export const Header: React.FC<HeaderProps> = ({
     };
 
     return (
-        <header className="fixed top-0 left-0 right-0 bg-base-100/80 backdrop-blur-md z-10 border-b border-base-300">
+        <header className="fixed top-0 left-0 right-0 bg-base-black border-b border-base-300">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-3">
                 <div className="flex justify-between items-center">
                     {/* Left Section */}
