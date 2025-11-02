@@ -41,7 +41,7 @@ export const Header: React.FC<HeaderProps> = ({
                     {/* Left Section */}
                     <div className="flex-1 flex justify-start">
                         <button onClick={() => handleNavigate('home')} className="flex items-center gap-2" aria-label="Go to homepage">
-                            <h1 className="text-xl md:text-2xl font-bold tracking-tight text-content-white">
+                            <h1 className="text-xl md:text-2xl font-bold tracking-tight text-content-100">
                                 The Blueprint Base
                             </h1>
                         </button>
