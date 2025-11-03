@@ -10,9 +10,23 @@ interface HeroSectionProps {
 export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
     return (
         <div className="fixed inset-0 z-0 flex flex-col items-center justify-center text-center px-4">
-            <h3 className="text-4xl md:text-6xl font-bold text-content-100 mb-8 animate-fade-in max-w-4xl" style={{ animationDelay: '0.2s' }}>
-                A Bookmark Worthy Website built by The Half Idea
-            </h3>
+            <div 
+                className="mb-4 inline-block animate-fade-in" 
+                style={{ animationDelay: '0s' }}
+            >
+                <a 
+                    href="https://discord.gg/Ef4JST9S2E" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs sm:text-sm text-content-200 bg-base-200 border border-base-300 rounded-full px-4 py-1.5 hover:bg-base-300 transition-colors"
+                >
+                    Crafted by The Half Idea
+                </a>
+            </div>
+            
+            <h2 className="text-4xl md:text-6xl font-bold text-content-white mb-8 animate-fade-in max-w-4xl" style={{ animationDelay: '0.2s' }}>
+                Access actionable practices alongside a curated library of design resources
+            </h2>
             
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: '0.6s' }}>
                 <button
