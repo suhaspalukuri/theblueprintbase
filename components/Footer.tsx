@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const Footer: React.FC = () => {
@@ -6,9 +5,7 @@ export const Footer: React.FC = () => {
         <footer className="w-full py-4 border-t border-base-300">
             <div className="container mx-auto px-4 sm:px-6 lg:px-12 text-center">
                 <p className="text-sm text-content-200">
-                    &copy; {new Date().getFullYear()} The Blueprint Base{' '}
-                    
-                     All Rights Reserved.
+                    &copy; {new Date().getFullYear()} The Blueprint Base by The Half Idea
                 </p>
             </div>
         </footer>
