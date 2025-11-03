@@ -15,7 +15,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
                 style={{ animationDelay: '0s' }}
             >
                 <a 
-                    href="https://thehalfidea.in" 
+                    href="https://discord.gg/Ef4JST9S2E"
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-xs sm:text-sm text-content-200 bg-base-200 border border-base-300 rounded-full px-4 py-1.5 hover:bg-base-300 transition-colors"
