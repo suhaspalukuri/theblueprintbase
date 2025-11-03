@@ -13,8 +13,9 @@ export const Footer: React.FC = () => {
                         rel="noopener noreferrer" 
                         className="font-medium hover:text-brand-primary transition-colors"
                     >
-                        The Half Idea
+                        The Half Idea 
                     </a>
+                    | All Rights Reserved | Suhas Palukuri & Kavya Arohi
                 </p>
             </div>
         </footer>
