@@ -4,13 +4,31 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+<!--  created with The Blueprint Base Sitemap Generator -->
 
 <url>
-  <loc>https://www.theblueprintbase.space/</loc>
-  <lastmod>2025-10-30T10:17:44+00:00</lastmod>
+  <loc>https://theblueprintbase.space/</loc>
+  <lastmod>2024-07-28T12:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>weekly</changefreq>
 </url>
-
+<url>
+  <loc>https://theblueprintbase.space/tips</loc>
+  <lastmod>2024-07-28T12:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://theblueprintbase.space/resources</loc>
+  <lastmod>2024-07-28T12:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://theblueprintbase.space/about</loc>
+  <lastmod>2024-07-28T12:00:00+00:00</lastmod>
+  <priority>0.50</priority>
+  <changefreq>yearly</changefreq>
+</url>
 
 </urlset>
