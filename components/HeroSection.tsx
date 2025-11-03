@@ -11,7 +11,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
     return (
         <div className="fixed inset-0 z-0 flex flex-col items-center justify-center text-center px-4">
             <h2 className="text-4xl md:text-6xl font-bold text-content-100 mb-8 animate-fade-in max-w-4xl" style={{ animationDelay: '0.2s' }}>
-                Access actionable practices alongside a curated library of design resources
+                A Bookmark Worthy Website built by The Half Idea
             </h2>
             
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: '0.6s' }}>
