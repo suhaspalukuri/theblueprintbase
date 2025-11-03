@@ -2,9 +2,8 @@
 import React from 'react';
 
 const socialLinks = [
-    { name: 'X', url: 'https://x.com/TheSuhasPal' },
-    { name: 'Instagram', url: 'https://www.instagram.com/thesuhaspal/' },
-    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/suhaspalukuri/' },
+    { name: 'Suhas Palukuri', url: 'https://www.linkedin.com/in/suhaspalukuri/' },
+    { name: 'Kavya Arohi', url: 'https://www.linkedin.com/in/suhaspalukuri/' },
 ];
 
 export const AboutPage: React.FC = () => {
