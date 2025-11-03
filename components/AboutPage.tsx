@@ -5,12 +5,13 @@ export const AboutPage: React.FC = () => {
         <main className="container mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-8 animate-fade-in">
             <div className="max-w-2xl">
                 <p className="text-content-200 leading-relaxed mb-8 text-justify">
-                    The Blueprint Base is your quick-reference manual for building effective digital experiences, moving you from abstract theory to immediate application. The tips are rigorously organized into logical categories like Visual Aesthetics, Usability, and Accessibility, allowing you to audit your work strategically. If you’re starting a new project, begin with the Usability & Interaction tips to lock down the core functionality first, ensuring your design is fast and clear. If you’re polishing existing work, use the Visual Aesthetics & Polish tips as a final quality assurance check for alignment, contrast, and spacing. By using the short, memorable titles—like "Mind the Edges" or "One Primary Action"—as immediate mental checklists, you keep the design process grounded, efficient, and user-focused.
+                    Welcome to The Blueprint Base—an initiative created by The Half Idea, a dedicated design studio and community.
 </p>
 <p className="text-content-200 leading-relaxed mb-8 text-justify">
-For continuous improvement, treat the Base as a progressive learning tool rather than just a simple list. Design professionals can use the Details & Accessibility and Efficiency & Process categories as essential pre-launch checklists to ensure all ethical and operational requirements are met. When facing a creative block or needing to solve a specific problem, simply jump to the relevant category to find a targeted, concise solution. Ultimately, the power of the Base lies in its structure: it ensures you systematically cover every aspect of great design, helping you build solid, human-centered products every single time.
-                </p>
-                
+We founded this platform because, as practitioners, we constantly encountered the same frustration: designers wasting valuable time hunting for actionable advice and reliable resources. We believe the path from "half an idea" to a polished product shouldn't be blocked by confusion. That's why we distilled our studio's collective knowledge into the Base. Here, you get over 100 practical design tips—the exact principles we use every day—organized into digestible, immediate steps. Crucially, we pair this core knowledge with essential resources listed by exploring the web.</p>
+
+                <p className="text-content-200 leading-relaxed mb-8 text-justify">
+The Blueprint Base is more than just a list; it’s our way of scaling the expertise of The Half Idea to help the entire design community. Our mission is to eliminate guesswork, allowing you to stop debugging your processes and start shipping beautiful, usable projects with the solid foundation you deserve. Build better, together.                
                 <div className="mt-12 pt-8 border-t border-base-300">
                     
                     <div className="flex items-center gap-2 text-lg text-content-100">
