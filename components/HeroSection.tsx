@@ -18,13 +18,13 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
                     href="https://discord.gg/Ef4JST9S2E" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="text-xs sm:text-sm text-content-200 bg-base-200 border border-base-300 rounded-full px-4 py-1.5 hover:bg-base-300 transition-colors"
+                    className="text-xs sm:text-sm text-content-200  bg-base-200 border border-base-300 rounded-full px-4 py-1.5 hover:bg-base-300 transition-colors"
                 >
                     Crafted by The Half Idea
                 </a>
             </div>
             
-            <h2 className="text-4xl md:text-6xl font-semi-bold text-content-100 mb-8 animate-fade-in max-w-4xl" style={{ animationDelay: '0.2s' }}>
+            <h2 className="text-4xl md:text-6xl font-semi-bold tracking-tight text-content-100 mb-8 animate-fade-in max-w-4xl" style={{ animationDelay: '0.2s' }}>
                 The Missing Link to Level Up Your Design
             </h2>
             
