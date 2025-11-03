@@ -12,7 +12,7 @@ For continuous improvement, treat the Base as a progressive learning tool rather
                 </p>
                 
                 <div className="mt-12 pt-8 border-t border-base-300">
-                    <h3 className="text-xl font-bold text-content-100 mb-6">Crafted by</h3>
+                    
                     <div className="flex items-center gap-2 text-lg text-content-100">
                         <a href="https://www.linkedin.com/in/suhaspalukuri/" target="_blank" rel="noopener noreferrer" className="font-semibold transition-colors hover:text-white hover:underline">Suhas Palukuri</a>
                         <span className="text-content-200">&</span>
