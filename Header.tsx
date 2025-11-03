@@ -34,20 +34,20 @@ export const Header: React.FC<HeaderProps> = ({
     };
 
     return (
-        <header className="fixed top-0 left-0 right-0 bg-base-100/80 backdrop-blur-md z-10 border-b border-base-300">
+        <header className="fixed top-0 left-0 right-0 bg-base-100 z-10 border-b border-base-300">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-3">
-                <div className="flex justify-between items-center">
-                    {/* Left Section */}
-                    <div className="flex-1 flex justify-start">
-                        <button onClick={() => handleNavigate('home')} className="flex items-center gap-2" aria-label="Go to homepage">
-                            <h1 className="text-xl md:text-2xl font-bold tracking-tight text-content-white">
+                <div className="relative flex justify-between items-center">
+                    {/* Left Side: Logo */}
+                    <div>
+                        <button onClick={() => handleNavigate('home')} className="flex items-center gap-2 flex-shrink-0" aria-label="Go to homepage">
+                            <h1 className="text-xl md:text-2xl font-bold tracking-tight text-content-100">
                                 The Blueprint Base
                             </h1>
                         </button>
                     </div>
 
-                    {/* Center Section (Desktop) */}
-                    <div className="hidden lg:flex flex-1 justify-center items-center gap-8">
+                    {/* Centered Desktop Nav Links */}
+                    <nav className="hidden md:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 items-center gap-4 lg:gap-6">
                         <button 
                             onClick={() => handleNavigate('tips')}
                             className={navLinkClasses('tips')}
@@ -75,24 +75,22 @@ export const Header: React.FC<HeaderProps> = ({
                         >
                             Contact us
                         </a>
-                    </div>
+                    </nav>
                     
-                    {/* Right Section */}
-                    <div className="flex-1 flex justify-end items-center gap-4">
+                    {/* Right Side: CTA + Mobile Menu */}
+                    <div className="flex items-center">
                         {/* Desktop CTA Button */}
-                        <div className="hidden lg:flex">
-                            <a
-                                href="https://discord.gg/Ef4JST9S2E"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="bg-white text-black px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity"
-                            >
-                                Join The Half Idea
-                            </a>
-                        </div>
+                        <a
+                            href="https://discord.gg/Ef4JST9S2E"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hidden md:block bg-white text-black px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity"
+                        >
+                            Join The Half Idea
+                        </a>
 
                         {/* Mobile/Tablet Menu Button */}
-                        <div className="lg:hidden">
+                        <div className="md:hidden ml-4">
                             <button 
                                 onClick={() => setIsMenuOpen(!isMenuOpen)} 
                                 className="p-2 rounded-md text-content-200 hover:bg-base-300"
@@ -107,7 +105,7 @@ export const Header: React.FC<HeaderProps> = ({
 
                 {/* Mobile/Tablet Menu */}
                 {isMenuOpen && (
-                    <div className="lg:hidden mt-4 pt-4 border-t border-base-300">
+                    <div className="md:hidden mt-4 pt-4 border-t border-base-300">
                         <div className="flex flex-col gap-4">
                             <button 
                                 onClick={() => handleNavigate('tips')}
