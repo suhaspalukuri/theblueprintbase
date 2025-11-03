@@ -11,7 +11,7 @@ export const AboutPage: React.FC = () => {
 We founded this platform because, as practitioners, we constantly encountered the same frustration: designers wasting valuable time hunting for actionable advice and reliable resources. We believe the path from "half an idea" to a polished product shouldn't be blocked by confusion. That's why we distilled our studio's collective knowledge into the Base. Here, you get over 100 practical design tips—the exact principles we use every day—organized into digestible, immediate steps. Crucially, we pair this core knowledge with essential resources listed by exploring the web.</p>
 
                 <p className="text-content-200 leading-relaxed mb-8 text-justify">
-The Blueprint Base is more than just a list; it’s our way of scaling the expertise of The Half Idea to help the entire design community. Our mission is to eliminate guesswork, allowing you to stop debugging your processes and start shipping beautiful, usable projects with the solid foundation you deserve. Build better, together.                
+The Blueprint Base is more than just a list; it’s our way of scaling the expertise of The Half Idea to help the entire design community. Our mission is to eliminate guesswork, allowing you to stop debugging your processes and start shipping beautiful, usable projects with the solid foundation you deserve. Build better, together.</p>                
                 <div className="mt-12 pt-8 border-t border-base-300">
                     
                     <div className="flex items-center gap-2 text-lg text-content-100">
