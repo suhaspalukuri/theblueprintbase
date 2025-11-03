@@ -1,5 +1,5 @@
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Header } from './components/Header';
 import { TipDetailModal } from './components/TipDetailModal';
 import { AboutPage } from './components/AboutPage';
@@ -12,9 +12,49 @@ import type { Tip } from './types';
 
 type Page = 'home' | 'tips' | 'about' | 'resources';
 
+const getPageFromPath = (path: string): Page => {
+    switch (path) {
+        case '/tips':
+            return 'tips';
+        case '/about':
+            return 'about';
+        case '/resources':
+            return 'resources';
+        case '/':
+        default:
+            return 'home';
+    }
+};
+
 const App: React.FC = () => {
     const [selectedTip, setSelectedTip] = useState<Tip | null>(null);
-    const [page, setPage] = useState<Page>('home');
+    const [currentPath, setCurrentPath] = useState(window.location.pathname);
+    
+    const page = useMemo(() => getPageFromPath(currentPath), [currentPath]);
+
+    useEffect(() => {
+        const onPopState = () => {
+            setCurrentPath(window.location.pathname);
+        };
+        window.addEventListener('popstate', onPopState);
+        return () => {
+            window.removeEventListener('popstate', onPopState);
+        };
+    }, []);
+
+    const handleNavigate = (pageToNavigate: Page) => {
+        const pathMap: Record<Page, string> = {
+            home: '/',
+            tips: '/tips',
+            about: '/about',
+            resources: '/resources',
+        };
+        const newPath = pathMap[pageToNavigate];
+        if (window.location.pathname !== newPath) {
+            window.history.pushState({ page: pageToNavigate }, '', newPath);
+            setCurrentPath(newPath);
+        }
+    };
 
     const handleCloseModal = () => {
         setSelectedTip(null);
@@ -44,12 +84,12 @@ const App: React.FC = () => {
     return (
         <div className="min-h-screen bg-base-100 font-sans flex flex-col">
             <Header
-                onNavigate={setPage}
+                onNavigate={handleNavigate}
                 currentPage={page}
             />
             
             {page === 'home' ? (
-                <HeroSection onNavigate={setPage} />
+                <HeroSection onNavigate={handleNavigate} />
             ) : (
                 <main className="flex-grow">
                     {page === 'tips' && <TipsPage tips={allTips} onTipSelect={handleTipSelect} />}
