@@ -14,9 +14,9 @@ For continuous improvement, treat the Base as a progressive learning tool rather
                 <div className="mt-12 pt-8 border-t border-base-300">
                     <h3 className="text-xl font-bold text-content-100 mb-6">Crafted by</h3>
                     <div className="flex items-center gap-2 text-lg text-content-100">
-                        <a href="#" target="_blank" rel="noopener noreferrer" className="font-semibold transition-colors hover:text-white hover:underline">Suhas Palukuri</a>
+                        <a href="https://www.linkedin.com/in/suhaspalukuri/" target="_blank" rel="noopener noreferrer" className="font-semibold transition-colors hover:text-white hover:underline">Suhas Palukuri</a>
                         <span className="text-content-200">&</span>
-                        <a href="#" target="_blank" rel="noopener noreferrer" className="font-semibold transition-colors hover:text-white hover:underline">Kavya Arohi</a>
+                        <a href="https://www.linkedin.com/in/kavyaarohi/" target="_blank" rel="noopener noreferrer" className="font-semibold transition-colors hover:text-white hover:underline">Kavya Arohi</a>
                     </div>
                 </div>
             </div>
