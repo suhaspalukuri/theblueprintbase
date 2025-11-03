@@ -13,18 +13,10 @@ For continuous improvement, treat the Base as a progressive learning tool rather
                 
                 <div className="mt-12 pt-8 border-t border-base-300">
                     <h3 className="text-xl font-bold text-content-100 mb-6">Crafted by</h3>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                        <div>
-                            <p className="text-lg font-semibold text-content-100">Suhas Palukuri</p>
-                            <div className="flex items-center gap-4 mt-2">
-                                <a href="https://x.com/TheSuhasPal" target="_blank" rel="noopener noreferrer" className="font-medium text-content-200 hover:text-brand-primary transition-colors">X</a>
-                                <a href="https://www.instagram.com/thesuhaspal/" target="_blank" rel="noopener noreferrer" className="font-medium text-content-200 hover:text-brand-primary transition-colors">Instagram</a>
-                                <a href="https://www.linkedin.com/in/suhaspalukuri/" target="_blank" rel="noopener noreferrer" className="font-medium text-content-200 hover:text-brand-primary transition-colors">LinkedIn</a>
-                            </div>
-                        </div>
-                        <div>
-                            <p className="text-lg font-semibold text-content-100">Kavya Arohi</p>
-                        </div>
+                    <div className="flex items-center gap-2 text-lg text-content-100">
+                        <a href="#" target="_blank" rel="noopener noreferrer" className="font-semibold transition-colors hover:text-white hover:underline">Suhas Palukuri</a>
+                        <span className="text-content-200">&</span>
+                        <a href="#" target="_blank" rel="noopener noreferrer" className="font-semibold transition-colors hover:text-white hover:underline">Kavya Arohi</a>
                     </div>
                 </div>
             </div>
